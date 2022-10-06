@@ -6,7 +6,7 @@ https://www.epplussoftware.com/
 
 2.在.NET项目项目中下载，NuGet包管理器中下载相应的版本
 
-![](C#导出excel.assets/image-20221006111550112.png)
+![](https://github.com/JimmyWan2022/MAUIAPP/blob/main/C%23%20Note/C%23%E5%AF%BC%E5%87%BAexcel.assets/image-20221006111550112.png)
 
 
 
