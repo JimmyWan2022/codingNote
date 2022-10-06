@@ -6,7 +6,9 @@ https://www.epplussoftware.com/
 
 2.在.NET项目项目中下载，NuGet包管理器中下载相应的版本
 
-![image-20221006111550112](D:\github\C# Note\C#导出excel.assets\image-20221006111550112.png)
+![](C#导出excel.assets/image-20221006111550112.png)
+
+
 
 3.在using的部分选择商业使用，还是非商业（低版本的包是开源的，不受影响）
 
