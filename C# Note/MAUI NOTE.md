@@ -6,7 +6,5 @@
 
 
 
-![](https://github.com/JimmyWan2022/MAUIAPP/blob/main/C%23%20Note/MAUI%20NOTE.assets/nothing.png)
-
 
 
