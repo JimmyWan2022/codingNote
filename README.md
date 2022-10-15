@@ -1,5 +1,5 @@
-## ~~C#学习经验，MAUI跨平台项目经验~~
-
+## C#
+~~C#学习经验，MAUI跨平台项目经验~~
 ~~微软在推MAUI跨平台项目，UI界面只需编写一次，部署到Android、IOS、MAC、Windows、Linux等多个平台~~
 
 MAUI可能还不够强大，可以再等等。
