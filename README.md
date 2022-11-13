@@ -11,14 +11,15 @@ MAUI可能还不够强大，可以再等等。
 1. VUE前端
 2. WinForm UI
 3. WPF（Windows Presentation Foundation）Windows平台的UI框架
-4. 用GO语言（框架未定）编写后端API
+4. ~~用GO语言（框架未定）编写后端API~~保留项
 5. 数据库
    - Oracle数据库 
    - Mysql数据库
    -  MongoDB数据库
    - Sqlite数据库（超小型数据库，在手机，嵌入式等场景）
    - PostgreSQL数据库
-
+6. electron开发桌面应用
+7. flutter 开发移动端跨平台
 ## 
 
 ## 
