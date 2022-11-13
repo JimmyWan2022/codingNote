@@ -28,10 +28,10 @@ public void writeExcel(string str1,Boolean boolValue) {
             if (boolValue)
             {
                 //true
-                 str2 = "老练";
+                 str2 = "1";
             }
             else {//false
-                str2 = "温循";
+                str2 = "2";
             }
             string excelName = str2 + " " + mydate + "产品" + str1 + ".xlsx";
 
@@ -80,7 +80,7 @@ public void writeExcel(string str1,Boolean boolValue) {
                 int startColOld = 2;
                 int startCol;
                 int startRow;
-                //老练前
+                //前
                 startRow = startRowOld ;
                 startCol = startColOld;
                 worksheet.Cells[startRow, startCol, startRow + 5, startCol].Merge = true;
@@ -167,11 +167,11 @@ public void writeExcel(string str1,Boolean boolValue) {
                     worksheet.Cells[startRow + 1, startCol + 2, startRow + 1, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                     worksheet.Cells[startRow + 1, startCol + 2, startRow + 1, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
-                    worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Value = "自检功能测试";
+                    worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Value = "测试";
                     worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                     worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
-                    worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Value = "脱落反馈功能测试";
+                    worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Value = "测试";
                     worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                     worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
@@ -194,7 +194,7 @@ public void writeExcel(string str1,Boolean boolValue) {
                     worksheet.Cells[startRow + 3, startCol + 3, startRow + 3, startCol + 3].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
                 }
-                //老练后
+                //后
                 startRow = startRowOld + 4*24+6;
                 startCol = startColOld;
                 worksheet.Cells[startRow, startCol, startRow + 5, startCol].Merge = true;
@@ -215,19 +215,19 @@ public void writeExcel(string str1,Boolean boolValue) {
                 worksheet.Cells[startRow + 1, startCol + 2, startRow + 1, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                 worksheet.Cells[startRow + 1, startCol + 2, startRow + 1, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
-                worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Value = "自检功能测试";
+                worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Value = "测试";
                 worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                 worksheet.Cells[startRow + 2, startCol + 2, startRow + 2, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
-                worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Value = "脱落反馈功能测试";
+                worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Value = "测试";
                 worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                 worksheet.Cells[startRow + 3, startCol + 2, startRow + 3, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
-                worksheet.Cells[startRow + 4, startCol + 2, startRow + 4, startCol + 2].Value = "全路点火测试";
+                worksheet.Cells[startRow + 4, startCol + 2, startRow + 4, startCol + 2].Value = "测试";
                 worksheet.Cells[startRow + 4, startCol + 2, startRow + 4, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                 worksheet.Cells[startRow + 4, startCol + 2, startRow + 4, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
-                worksheet.Cells[startRow + 5, startCol + 2, startRow + 5, startCol + 2].Value = "逐路点火测试";
+                worksheet.Cells[startRow + 5, startCol + 2, startRow + 5, startCol + 2].Value = "测试";
                 worksheet.Cells[startRow + 5, startCol + 2, startRow + 5, startCol + 2].Style.VerticalAlignment = ExcelVerticalAlignment.Center;
                 worksheet.Cells[startRow + 5, startCol + 2, startRow + 5, startCol + 2].Style.Border.BorderAround(ExcelBorderStyle.Thin, Color.Black);
 
