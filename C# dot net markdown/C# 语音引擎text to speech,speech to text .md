@@ -46,3 +46,23 @@ https://www.google.com/intl/en/chrome/demos/speech.html
 **how to use it**
 
 https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
+
+
+
+
+
+下载开发组件：
+
+[Download Microsoft Speech Platform - Software Development Kit (SDK) (Version 11) from Official Microsoft Download Center](https://www.microsoft.com/en-us/download/confirmation.aspx?id=27226)
+
+
+
+[使用微软TTS语音引擎实现文本朗读_阳澄居士的博客-CSDN博客_window ispvoice 说中文](https://blog.csdn.net/zhanghefu/article/details/88576012)
+
+“System.Speech.Synthesis 教程”，AI给的结果：
+
+[System.Speech.Synthesis Namespace | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.speech.synthesis?view=netframework-4.8.1)
+
+[Speech - Text-To-Speech Synthesis in .NET | Microsoft Learn](https://learn.microsoft.com/en-us/archive/msdn-magazine/2019/june/speech-text-to-speech-synthesis-in-net)
+
+[c# - How to work with System.Speech - Stack Overflow](https://stackoverflow.com/questions/35282092/how-to-work-with-system-speech)
