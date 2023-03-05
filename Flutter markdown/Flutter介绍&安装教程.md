@@ -24,9 +24,11 @@ Flutter uses the same Skia graphics rendering engine as Google Chrome. This allo
 
 官网中文安装教程：https://flutter.cn/docs/get-started/install/windows
 
+[Android SDK 安装及环境配置教程_androidsdk安装教程_小拉几的博客-CSDN博客](https://blog.csdn.net/Krystal_RonghuiLi/article/details/109313593)
+
 1.安装flutter，配置环境变量
 
-2.安装Android SDK
+2.安装Android SDK [SDK Platform Tools release notes  | Android Developers](https://developer.android.com/studio/releases/platform-tools.html)
 
 3.visual studio安装C++组件
 
